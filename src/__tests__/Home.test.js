@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import { name, city } from "../data/data";
+import { name, city } from "../data/user";
 import Home from "../components/Home";
 
 test("renders a div with the correct ID", () => {
